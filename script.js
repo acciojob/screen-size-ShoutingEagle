@@ -14,5 +14,5 @@ var refresh = setInterval(resolution,0);
 
 function resolution (){
     // var screenSize = window.screen;
-    h1.textContent = `Width: ${window.screen.width} and Height: ${window.screen.height}`
+    h1.textContent = `Width: ${window.innerWidth} and Height: ${window.innerHeight}`;
 }
